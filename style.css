@@ -69,9 +69,10 @@ h1, h2 {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .card {
-    min-height: 400px;
+    min-height: 50vh;
+    scale: 0.7;
   }
 
   h1, h2 {
